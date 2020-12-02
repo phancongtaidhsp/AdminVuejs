@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+}
+.sidebar {
+  min-width: 210px;
+}
+.main {
+  width: 100%;
+}
+.ps {
+  max-height: 100vh;
+}
+.ps__thumb-y{
+  right: 2px !important;
+  width: 6px !important;
+}
+.ps--clicking{
+  width: 6px !important;
+}
+.ps__rail-y {
+  width: 6px !important;
+
+}
+.ps__rail-y:hover > .ps__thumb-y{
+  width: 6px !important;
+}
